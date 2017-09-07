@@ -1,0 +1,17 @@
+<Configuration status="info">
+<Appenders>
+    <Console name="Console">
+        <PatternLayout pattern="%d{dd MMM yyyy HH:mm:ss } %t %-5p %c : %m%n"/>
+    </Console>
+</Appenders>
+<Loggers>
+
+    <logger name="be.lombaer" level="trace">
+    </logger>
+
+
+    <Root level="trace">
+        <AppenderRef ref="Console"/>
+    </Root>
+</Loggers>
+</Configuration>
